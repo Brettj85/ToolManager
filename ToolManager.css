@@ -1,6 +1,6 @@
 .MainHeader 
 {
-    height: 10vh;
+    height: 60px;
     width: 100%;
     display: flex;
     border-bottom: 1px solid black;
@@ -26,7 +26,7 @@
     justify-content: space-evenly;
     align-items: right;
 }
-.Settings
+.SettingsButton
 {
     text-align: center;
     width: 99%;
@@ -34,12 +34,12 @@
     border: 1px solid black;
     cursor: pointer;
 }
-.Settings:hover
+.SettingsButton:hover
 {
     background-color: darkslategray;
     color: white; 
 }
-.ToolCheck
+.ToolCheckButton
 {
     text-align: center;
     width: 99%;
@@ -47,8 +47,43 @@
     border: 1px solid black;
     cursor: pointer;
 }
-.ToolCheck:hover
+.ToolCheckButton:hover
 {
     background-color: darkslategray;
     color: white;
+}
+.MainContentInner
+{
+    width: 100%;
+    Height: calc(100vh - 150px);
+    position: absolute;
+    top: 70px;
+    display: flex;
+    flex-direction: row;
+}
+.MainLeft
+{
+    width: 15%;
+    height: 100%;
+    border-right: 1px solid black;
+}
+.MainRight
+{
+    width: 85%;
+    height: 100%;
+}
+.MainContentSettings
+{
+    width: 0px;    
+    position: absolute;
+    top: 70px;
+    height: 80vh
+}
+.FooterContent
+{
+    height: 60px;
+    width: 100%;    
+    position: absolute;
+    bottom: 0px;
+    border-top: 1px solid black;
 }
