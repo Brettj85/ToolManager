@@ -1,0 +1,47 @@
+.MainContent
+{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.LoginContent
+{
+    height: 100px;
+    width: 400px;
+}
+.LoginLabel
+{
+    text-align: center;
+    height: 10px;
+    width: 100%;
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+.LoginTextContainer
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.LoginButtonContainer
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.SubmitButton
+{
+    width:100px;
+    height:20px;
+    text-align: center;
+    border: 1px solid black;
+}
+.SubmitButton:hover
+{
+    background-color: darkslategrey;
+    color: white;
+    cursor: pointer;
+}
