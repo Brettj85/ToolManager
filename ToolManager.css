@@ -1,3 +1,8 @@
+.body
+{
+    margin: 0;
+    padding: 0;
+}
 .MainHeader 
 {
     height: 60px;
@@ -7,14 +12,14 @@
 }
 .HeaderLeft
 {
-    width: 30%;
+    width: 15%;
     height: 100%;
-    font-size: 50px;
+    font-size: 30px;
     text-align: center;
 }
 .HeaderCenter
 {
-    width: 55%;
+    width: 70%;
     height: 100%;
 }
 .HeaderRight
@@ -66,6 +71,12 @@
     width: 15%;
     height: 100%;
     border-right: 1px solid black;
+}
+.MainLeftTitle
+{
+    font-size: 30px;
+    text-align: center;
+    border-bottom: 1px solid black;
 }
 .MainRight
 {
