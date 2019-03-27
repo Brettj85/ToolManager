@@ -1,0 +1,56 @@
+.Report{
+    width: 100%;
+    height: 30px;
+    font-size: 20px;
+    text-align: center;
+    background-color: lightgreen;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+.first{
+    border-top: 1px solid black;
+}
+.Report:hover{
+    background-color: darkslategrey;
+    color: white;
+    cursor: pointer;
+}
+.MainLeft{
+    border-right: 0px solid black;
+}
+#smith{
+    background-color:lightcoral;
+    color: black;
+}
+#smith:hover{
+    background-color:darkslategrey;
+    color: white;
+}
+#doe{
+    background-color:lightyellow;
+    color: black;
+}
+#doe:hover{
+    background-color:darkslategrey;
+    color: white;
+}
+.smith{
+    height: 100%;
+    width: 0;
+}
+.doe{
+    height: 100%;
+    width: 0;
+}
+.rest{
+    height: 100%;
+    width: 0;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.expand{
+    width: 100%;
+}
