@@ -1,18 +1,21 @@
-var level = document.getElementById("UserLevel");
+window.onload=function(){
+    var sub = document.getElementById("SubmitButton");
+    sub.addEventListener("click",  () => {OpenPage();});
+}
 
-var sub = document.querySelector(".SubmitButton")
-sub.addEventListener("click", function(e) {
-        OpenPage();
-      e.preventDefault();
-    });
-    function OpenPage()
+function OpenPage()
 {
-    if (level.Value == "manager")
+    var level = document.getElementById("UserLevel");  
+    if (level.value == "manager")
     {
-        window.open("user.html");
+        window.open("manager.html","_self");
+    }
+    else if (level.value == "user")
+    {
+        window.open("user.html","_self");
     }
     else
     {
-        window.open("user.html");
+        window.open("admin.html","_self");
     }
 }

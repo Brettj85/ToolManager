@@ -77,11 +77,16 @@
     font-size: 30px;
     text-align: center;
     border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    margin-bottom: 20px;    
+    background-color: lightgrey;
 }
 .MainRight
 {
     width: 85%;
     height: 100%;
+    display: flex;
 }
 .MainContentSettings
 {
