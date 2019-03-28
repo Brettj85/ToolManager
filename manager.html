@@ -1,58 +1,61 @@
 <!DOCTYPE html>
 <html>
-<head>
+
+  <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Tool Manager</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="user.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="manager.css" />
-    <script src="manager.js"></script>
-</head>
-<body>
+  </head>
+
+  <body>
     <div class="MainHeader">
-        <div class="HeaderLeft">Manager Page Mockup</div>
-        <div class="HeaderCenter"></div>
-        <div class="HeaderRight">
-            <div class="SettingsButton">
-                Settings
-            </div>
+      <div class="HeaderLeft">Manager Page Mockup</div>
+      <div class="HeaderCenter"></div>
+      <div class="HeaderRight">
+        <div class="SettingsButton">
+          Settings
         </div>
+      </div>
     </div>
     <div class="MainContent">
-        <div class="MainContentInner">
-            <div class="MainLeft">
-                <div class="MainLeftTitle">Current Employees</div>
-                <div class="Report first" id="smith" data-origin="Smith, John">Smith, John</div>
-                <div class="Report" id="doe" data-origin="Doe, Jane">Doe, Jane</div>
-                <div class="Report" id="Bob" data-origin="Bob, Jim">Bob, Jim</div>
-                <div class="Report" id="Stark" data-origin="Stark, andrew">Stark, andrew</div>
-                <div class="Report" id="Walker" data-origin="Walker, george">Walker, george</div>
-                <div class="Report" id="Jackson" data-origin="Jackson, Paul">Jackson, Paul</div>
-                <div class="Report" id="pachino" data-origin="pachino, Adam">pachino, Adam</div>
-                <div class="Report" id="rudd" data-origin="rudd, robert">rudd, robert</div>
-            </div>
-            <div class="MainRight">
-                <div class="smith" id="smithProfile">
-                        <div class="userData" id="userData"></div>
-                        <div class="caution">caution</div>
-                </div>
-                <div class="doe" id="doeProfile">
-                        <div class="userData" id="userData"></div>
-                        <div class="caution">caution</div>
-                </div>
-                <div class="rest" id="rest">
-                    <div class="userData" id="userData"></div>
-                    <div class="allClear">No issues Present</div>
-                </div>
-            </div>
+      <div class="MainContentInner">
+        <div class="MainLeft">
+          <div class="MainLeftTitle">Current Employees</div>
+          <div class="Report first" id="smith" data-origin="Smith, John">Smith, John</div>
+          <div class="Report" id="doe" data-origin="Doe, Jane">Doe, Jane</div>
+          <div class="Report" id="Bob" data-origin="Bob, Jim">Bob, Jim</div>
+          <div class="Report" id="Stark" data-origin="Stark, andrew">Stark, andrew</div>
+          <div class="Report" id="Walker" data-origin="Walker, george">Walker, george</div>
+          <div class="Report" id="Jackson" data-origin="Jackson, Paul">Jackson, Paul</div>
+          <div class="Report" id="pachino" data-origin="pachino, Adam">pachino, Adam</div>
+          <div class="Report" id="rudd" data-origin="rudd, robert">rudd, robert</div>
         </div>
-        <div class="MainContentSettings">
+        <div class="MainRight">
+          <div class="smith" id="smithProfile">
+            <div class="userData" id="userDataSmith"></div>
+            <div class="caution">warning</div>
+          </div>
+          <div class="doe" id="doeProfile">
+            <div class="userData" id="userDataDoe"></div>
+            <div class="caution">caution</div>
+          </div>
+          <div class="rest" id="rest">
+            <div class="userData" id="userDataRest"></div>
+            <div class="allClear">No issues Present</div>
+          </div>
+        </div>
+      </div>
+      <div class="MainContentSettings">
 
-        </div>
+      </div>
     </div>
     <div class="FooterContent">
 
     </div>
-</body>
+    <script src="manager.js"></script>
+  </body>
+
 </html>

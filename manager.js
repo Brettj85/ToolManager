@@ -6,26 +6,21 @@ for (var i = 0; i < list.length; i++) {
   });
 }
 
-function openUser(user)
-{
-    document.getElementById("userData").innerHTML = user;
-
-    if (user == "Smith, John")
-    {
-      document.getElementById("smithProfile").classList.add("expand");
-      document.getElementById("doeProfile").classList.remove("expand");
-      document.getElementById("rest").classList.remove("expand");
-    }
-    else if (user == "Doe, Jane")
-    {
-      document.getElementById("smithProfile").classList.remove("expand");
-      document.getElementById("doeProfile").classList.add("expand");
-      document.getElementById("rest").classList.remove("expand");
-    }
-    else
-    {
-      document.getElementById("smithProfile").classList.remove("expand");
-      document.getElementById("doeProfile").classList.remove("expand");
-      document.getElementById("rest").classList.add("expand");
-    }
+function openUser(user) {
+  if (user == "Smith, John") {
+    document.getElementById("userDataSmith").innerHTML = user;
+    document.getElementById("smithProfile").classList.add("expand");
+    document.getElementById("doeProfile").classList.remove("expand");
+    document.getElementById("rest").classList.remove("expand");
+  } else if (user == "Doe, Jane") {
+    document.getElementById("userDataDoe").innerHTML = user;
+    document.getElementById("smithProfile").classList.remove("expand");
+    document.getElementById("doeProfile").classList.add("expand");
+    document.getElementById("rest").classList.remove("expand");
+  } else {
+    document.getElementById("userDataRest").innerHTML = user;
+    document.getElementById("smithProfile").classList.remove("expand");
+    document.getElementById("doeProfile").classList.remove("expand");
+    document.getElementById("rest").classList.add("expand");
+  }
 }
